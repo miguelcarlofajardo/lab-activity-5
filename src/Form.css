@@ -1,0 +1,172 @@
+/* Form.css */
+
+.form__container {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+}
+
+.form__dropdown,
+.form__field {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.form__button {
+  width: 100%;
+  padding: 10px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.form__button:hover {
+  background-color: #0056b3;
+}
+
+.form__group {
+  margin-bottom: 20px;
+}
+
+.form__group.field {
+  position: relative;
+}
+
+.form__group.field input {
+  padding-left: 35px;
+}
+
+.form__group.field:before {
+  content: "\f002";
+  font-family: FontAwesome;
+  position: absolute;
+  top: 50%;
+  left: 10px;
+  transform: translateY(-50%);
+  color: #aaa;
+}
+
+.form__group.field input:focus + .field:before {
+  color: #007bff;
+}
+
+.form__group.field:before {
+  content: "\f002";
+  font-family: FontAwesome;
+  position: absolute;
+  top: 50%;
+  left: 10px;
+  transform: translateY(-50%);
+  color: #aaa;
+}
+
+.form__group.field input:focus + .field:before {
+  color: #007bff;
+}
+
+.form__group.field input:focus::placeholder {
+  color: transparent;
+}
+
+.form__group.field .form__field {
+  padding-left: 40px;
+}
+
+.form__group.field select {
+  padding-left: 40px;
+}
+
+.form__group.field .form__dropdown {
+  padding-left: 40px;
+}
+
+h2 {
+  text-align: center;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+}
+
+.card {
+  border: 1px solid #ccc;
+}
+
+.form-container {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f0f0f0;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+.form-field {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.form-dropdown {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.form-button {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.form-button:hover {
+  background-color: #0056b3;
+}
+
+.form-button:active {
+  background-color: #004080;
+}
+
+ul {
+  padding: 0;
+  list-style: none;
+}
+
+ul li {
+  margin-bottom: 10px;
+}
+
+.card {
+  max-width: 400px;
+  margin: 20px auto;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+}
